@@ -111,7 +111,9 @@ html {
 
 body {
   align-items: center;
-  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+  background-image: url(https://cdn.discordapp.com/attachments/822167015682867240/1094048526822031370/IMG-20230318-WA0004.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -138,7 +140,7 @@ button:hover{
   background-color: rgb(179, 173, 173);
 }
 #display {
-  background-color: #222222;
+  background-color: black;
   color: #fff;
   font-size: 1.714285714em;
   padding: 0.5em 0.75em;
@@ -174,7 +176,7 @@ button:hover{
 }
 
 .key--equal {
-  background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+  background-color: rgb(174, 198, 240);
   grid-column: -2;
   grid-row: 2 / span 4;
 }
